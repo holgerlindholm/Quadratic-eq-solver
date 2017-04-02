@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" src="libraries/p5.dom.js"></script>-->
+    <script language="javascript" src="libraries/p5.sound.js"></script>-->
+    <link type="text/css" rel="stylesheet" href="layout.css"></script>
+
+    <title>Quadratic Equation Solver</title>
+</head>
+<body>
+    <h1 id="header1">Quadratic equation solver v1 by Holger Lindholm</h1>
+    <div id="solver"><p>Write the quadratic equation in the provided boxes below in the form of <em>a<span class="pow2">2</span>+bx+c=0</em></p>
+    <h2>ax<span class="pow2">2</span>:<input class="inputclass" type="text" name="inputA" id="inA">  +
+  bx:<input class="inputclass" type="text" name="inputB" id="inB">  +
+  c:<input class="inputclass" type="text" name="inputC" id="inC">= <span id="result"></span></h2></div>
+    <input id="btn" type="submit" value="Solve">
+
+    <p class="txt">The quadratic equation is solved using the <a href="https://en.wikipedia.org/wiki/Quadratic_formula">Quadratic formula</a> as shown on the picture below:</p>
+    <img id="imgFQ" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Quadratic_formula.svg/2000px-Quadratic_formula.svg.png" alt="picture of the quadratic formula">
+
+    <script type = "text/javascript" src="solver.js"></script>
+
+</body>
+</html>
